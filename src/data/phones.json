@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 15 Pro Max",
+    "brand": "Apple",
+    "price": 1199,
+    "originalPrice": 1299,
+    "image": "https://images.unsplash.com/photo-1696446701796-da61225697cc?w=400&q=80",
+    "specs": "A17 Pro, Titanium, 256GB",
+    "badge": "New",
+    "badgeColor": "blue",
+    "rating": 4.9
+  },
+  {
+    "id": 2,
+    "name": "Galaxy S24 Ultra",
+    "brand": "Samsung",
+    "price": 1299,
+    "originalPrice": 1399,
+    "image": "https://images.unsplash.com/photo-1706606790781-459b84372d25?w=400&q=80",
+    "specs": "Snapdragon 8 Gen 3, 256GB",
+    "badge": "Best Seller",
+    "badgeColor": "blue",
+    "rating": 4.8
+  },
+  {
+    "id": 3,
+    "name": "iPhone 15 Pro",
+    "brand": "Apple",
+    "price": 999,
+    "originalPrice": 1099,
+    "image": "https://images.unsplash.com/photo-1695048133142-9a70e1e2f5e0?w=400&q=80",
+    "specs": "A17 Pro, Titanium, 128GB",
+    "badge": "Save $100",
+    "badgeColor": "orange",
+    "rating": 4.8
+  },
+  {
+    "id": 4,
+    "name": "iPhone 15 Plus",
+    "brand": "Apple",
+    "price": 899,
+    "originalPrice": 999,
+    "image": "https://images.unsplash.com/photo-1696446702183-cbd13d78e1e7?w=400&q=80",
+    "specs": "A16 Bionic, 128GB",
+    "badge": "Popular",
+    "badgeColor": "blue",
+    "rating": 4.7
+  },
+  {
+    "id": 5,
+    "name": "Galaxy S24+",
+    "brand": "Samsung",
+    "price": 999,
+    "originalPrice": 1099,
+    "image": "https://images.unsplash.com/photo-1706606790782-459b84372d26?w=400&q=80",
+    "specs": "Snapdragon 8 Gen 3, 256GB",
+    "badge": "Trending",
+    "badgeColor": "blue",
+    "rating": 4.7
+  },
+  {
+    "id": 6,
+    "name": "Galaxy Z Flip 5",
+    "brand": "Samsung",
+    "price": 999,
+    "originalPrice": 1099,
+    "image": "https://images.unsplash.com/photo-1691434938569-8db91b0f885d?w=400&q=80",
+    "specs": "Foldable, 256GB",
+    "badge": "Premium",
+    "badgeColor": "blue",
+    "rating": 4.6
+  }
+]

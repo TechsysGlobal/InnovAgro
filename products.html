@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Browse Apple iPhone 16 and Samsung Galaxy S25 phones with official UAE warranty, same-day delivery, and trade-in options." />
+    <title>Innov Agro | Shop Phones</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Innov Agro home">
+        <span class="logo-slot">
+          <img src="/logo.svg" alt="Innov Agro Logo" style="width: 28px; height: 28px; object-fit: contain;" />
+        </span>
+        <div>
+          <strong>Innov Agro</strong>
+          <small>Premium Mobiles</small>
+        </div>
+      </a>
+
+      <div class="header-search">
+        <input type="text" placeholder="Search iPhones, Galaxy..." />
+      </div>
+
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="products.html" class="active">Shop</a>
+      </nav>
+    </header>
+
+    <section class="hero" style="min-height: 50vh; padding: 40px 20px;">
+      <div class="hero-content">
+        <span class="hero-eyebrow">Complete Mobile Catalog</span>
+        <h1 style="font-size: 2.5rem;">Find Your Perfect Phone</h1>
+        <p>Compare the latest iPhone 16 and Galaxy S25 models with detailed specs and exclusive deals.</p>
+      </div>
+    </section>
+
+    <section class="products-section">
+      <div class="filters-panel">
+        <div class="filter-group">
+          <div class="filter-title">Brand</div>
+          <div class="brand-pills">
+            <button class="brand-pill active" data-brand="all">All</button>
+            <button class="brand-pill" data-brand="Apple">iPhone</button>
+            <button class="brand-pill" data-brand="Samsung">Galaxy</button>
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-title">Price Range</div>
+          <div class="price-range">
+            <input type="number" placeholder="Min AED" />
+            <span>-</span>
+            <input type="number" placeholder="Max AED" />
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-title">Storage Capacity</div>
+          <div class="filter-options">
+            <div class="filter-option">
+              <input type="checkbox" id="storage-128" value="128" />
+              <label for="storage-128">128 GB</label>
+            </div>
+            <div class="filter-option">
+              <input type="checkbox" id="storage-256" value="256" />
+              <label for="storage-256">256 GB</label>
+            </div>
+            <div class="filter-option">
+              <input type="checkbox" id="storage-512" value="512" />
+              <label for="storage-512">512 GB</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-title">Rating</div>
+          <div class="filter-options">
+            <div class="filter-option">
+              <input type="checkbox" id="rating-5" value="5" />
+              <label for="rating-5">⭐⭐⭐⭐⭐ 5 Stars</label>
+            </div>
+            <div class="filter-option">
+              <input type="checkbox" id="rating-4" value="4" />
+              <label for="rating-4">⭐⭐⭐⭐ 4+ Stars</label>
+            </div>
+            <div class="filter-option">
+              <input type="checkbox" id="rating-3" value="3" />
+              <label for="rating-3">⭐⭐⭐ 3+ Stars</label>
+            </div>
+          </div>
+        </div>
+
+        <button class="clear-filters">Clear All Filters</button>
+      </div>
+
+      <div class="products-main">
+        <div class="products-header">
+          <h2>All Phones</h2>
+          <div class="products-controls">
+            <select class="sort-select">
+              <option>Sort by: Featured</option>
+              <option>Price: Low to High</option>
+              <option>Price: High to Low</option>
+              <option>Newest First</option>
+              <option>Top Rated</option>
+            </select>
+            <div class="grid-toggle-buttons">
+              <button class="grid-toggle-btn active" data-cols="3">⊞⊞⊞</button>
+              <button class="grid-toggle-btn" data-cols="4">⊞⊞⊞⊞</button>
+              <button class="grid-toggle-btn" data-cols="2">⊞⊞</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-grid" data-products></div>
+      </div>
+    </section>
+
+    <section class="trust-section">
+      <div class="trust-container">
+        <div class="trust-badge">
+          <div class="trust-icon">✓</div>
+          <div class="trust-title">Verified Authentic</div>
+          <div class="trust-text">All devices verified by manufacturer</div>
+        </div>
+        <div class="trust-badge">
+          <div class="trust-icon">🚚</div>
+          <div class="trust-title">Express Shipping</div>
+          <div class="trust-text">Same-day delivery in Dubai & nearby</div>
+        </div>
+        <div class="trust-badge">
+          <div class="trust-icon">💯</div>
+          <div class="trust-title">Price Match</div>
+          <div class="trust-text">Best prices guaranteed in UAE</div>
+        </div>
+        <div class="trust-badge">
+          <div class="trust-icon">📞</div>
+          <div class="trust-title">Expert Support</div>
+          <div class="trust-text">24/7 customer service team</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner">
+      <div class="banner-content">
+        <h2>Not Sure Which Phone to Choose?</h2>
+        <p>Compare side-by-side specs, read customer reviews, and get expert recommendations tailored to your needs.</p>
+        <a href="index.html" class="btn btn-accent">View Comparison Guide</a>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>About Innov Agro</h3>
+          <ul>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Sustainability</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Support</h3>
+          <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Warranty Info</a></li>
+            <li><a href="#">Track Order</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Policies</h3>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Shipping Info</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Newsletter</h3>
+          <p>Get exclusive deals and new arrivals delivered to your inbox.</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="your@email.com" required />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Innov Agro. All rights reserved. Authorized Apple & Samsung distributor in UAE.</p>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
