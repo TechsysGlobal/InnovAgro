@@ -36,7 +36,7 @@ export default function Home({ onAddCart }) {
             <img
               alt="Latest Smartphone"
               className="w-full h-auto object-cover rounded-xl shadow-lg border border-outline-variant/30"
-              src="https://images.unsplash.com/photo-1696446701796-da61225697cc?w=800&q=80"
+              src="public\phones.jpg"
             />
           </div>
         </div>

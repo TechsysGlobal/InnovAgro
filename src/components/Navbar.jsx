@@ -9,7 +9,7 @@ export default function Navbar({ cartCount }) {
       <div className="flex justify-between items-center w-full px-6 py-4 max-w-7xl mx-auto">
         {/* Logo */}
         <div className="flex items-center">
-          <img src="/logo.svg" alt="Innov Agro Logo" className="h-10 w-auto" />
+          <img src="/full.svg" alt="Innov Agro Logo" className="h-10 w-auto" />
         </div>
 
         {/* Desktop Nav */}
