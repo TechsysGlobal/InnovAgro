@@ -36,7 +36,7 @@ export default function Home({ onAddCart }) {
             <img
               alt="Latest Smartphone"
               className="w-full h-auto object-cover rounded-xl shadow-lg border border-outline-variant/30"
-              src="public\phones.jpg"
+              src="phones.jpg"
             />
           </div>
         </div>

@@ -39,7 +39,7 @@ export default function Products({ onAddCart }) {
             <img
               alt="Smartphones Collection"
               className="w-full h-auto object-cover rounded-xl shadow-lg border border-outline-variant/30"
-              src="public\phones.jpg"
+              src="phones.jpg"
             />
           </div>
         </div>
